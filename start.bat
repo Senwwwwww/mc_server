@@ -1,0 +1,1 @@
+ java -Xmx2048M -Xms2048M  -jar mohist-1.18.2-183-server.jar

@@ -1,0 +1,89 @@
+2024-09-27 15:21:40,319 INFO  [main] c.m.m.Launcher.main(76): ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+2024-09-27 15:21:40,319 INFO  [main] c.m.m.Launcher.<init>(51): ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.10 by Oracle Corporation
+2024-09-27 15:21:40,428 INFO  [main] mixin.info(97): SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/hssssb/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2024-09-27 15:21:40,836 INFO  [main] n.m.f.l.m.JarInJarDependencyLocator.scanMods(51): No dependencies to load found. Skipping!
+2024-09-27 15:21:42,030 INFO  [main] mixin.info(97): Compatibility level set to JAVA_17
+2024-09-27 15:21:42,046 INFO  [main] c.m.m.LaunchServiceHandler.launch(52): Launching target 'forgeserver' with arguments []
+2024-09-27 15:21:48,432 INFO  [modloading-worker-0] d.a.n.f.NetworkManagerImpl.registerC2SReceiver(169): Registering C2S receiver with id architectury:sync_ids
+2024-09-27 15:21:48,437 INFO  [modloading-worker-0] n.m.c.ForgeMod.<init>(143): Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+2024-09-27 15:21:48,445 INFO  [modloading-worker-0] d.a.n.f.NetworkManagerImpl.registerC2SReceiver(169): Registering C2S receiver with id ftbultimine:key_pressed
+2024-09-27 15:21:48,446 INFO  [modloading-worker-0] d.a.n.f.NetworkManagerImpl.registerC2SReceiver(169): Registering C2S receiver with id ftbultimine:mode_changed
+2024-09-27 15:21:48,447 INFO  [modloading-worker-0] n.m.c.MinecraftForge.initialize(41): MinecraftForge v40.2.21 Initialized
+2024-09-27 15:21:48,659 INFO  [modloading-worker-0] d.a.n.f.NetworkManagerImpl.registerC2SReceiver(169): Registering C2S receiver with id ftblibrary:edit_nbt_response
+2024-09-27 15:21:48,888 INFO  [modloading-worker-0] c.m.MohistMC.init(17): EventDispatcherRegistry initialized
+2024-09-27 15:21:53,348 INFO  [main] n.m.r.GameData.checkPrefix(946): Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+2024-09-27 15:21:53,366 INFO  [main] n.m.r.GameData.checkPrefix(946): Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+2024-09-27 15:21:55,975 INFO  [main] c.m.a.y.YggdrasilAuthenticationService.<init>(72): Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2024-09-27 15:21:56,695 WARN  [main] n.m.s.p.VanillaPackResources.m_182299_(58): Assets URL 'union:/D:/hssssb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2374!/assets/.mcassetsroot' uses unexpected schema
+2024-09-27 15:21:56,696 WARN  [main] n.m.s.p.VanillaPackResources.m_182299_(58): Assets URL 'union:/D:/hssssb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2374!/data/.mcassetsroot' uses unexpected schema
+2024-09-27 15:21:57,813 WARN  [main] n.m.c.Commands.m_82107_(214): Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-09-27 15:21:57,814 WARN  [main] n.m.c.Commands.m_82107_(214): Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-09-27 15:21:57,819 WARN  [main] n.m.c.Commands.m_82107_(214): Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2024-09-27 15:21:57,820 WARN  [main] n.m.c.Commands.m_82107_(214): Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2024-09-27 15:21:57,820 WARN  [main] n.m.c.Commands.m_82107_(214): Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2024-09-27 15:21:59,309 INFO  [Worker-Main-31] n.m.w.i.c.RecipeManager.m_5787_(85): Loaded 29 recipes
+2024-09-27 15:21:59,874 INFO  [Worker-Main-31] s.m.f.t.FluidContainerTransferManager.apply(111): Loaded 23 dynamic modifiers in 0.6536 ms
+2024-09-27 15:21:59,939 INFO  [Worker-Main-31] s.t.l.m.ModifierManager.apply(183): Loaded 94 dynamic modifiers and 17 modifier redirects in 35.0056 ms
+2024-09-27 15:21:59,954 INFO  [Worker-Main-31] s.t.l.m.ModifierManager.apply(197): Loaded 37 modifier tags for 126 modifiers in 13.9427 ms
+2024-09-27 15:21:59,954 INFO  [Worker-Main-31] s.t.l.m.ModifierManager.apply(240): Loaded 49 enchantment to modifier mappings in 0.6445 ms
+2024-09-27 15:21:59,957 INFO  [Worker-Main-31] s.t.l.m.s.SpillingFluidManager.apply(89): Loaded 49 spilling fluids in 2.6113 ms
+2024-09-27 15:21:59,963 INFO  [Worker-Main-31] s.t.l.m.d.MaterialManager.apply(205): Loaded 56 materials in 5.3724 ms
+2024-09-27 15:21:59,974 INFO  [Worker-Main-31] s.t.l.m.d.MaterialManager.apply(212): Loaded 1 material tags for 20 materials in 11.3125 ms
+2024-09-27 15:21:59,994 INFO  [Worker-Main-31] s.t.l.m.s.MaterialStatsManager.m_6213_(217): 196 stats loaded for 65 materials in 19.9624 ms
+2024-09-27 15:22:00,011 INFO  [Worker-Main-31] s.t.l.m.t.MaterialTraitsManager.m_6213_(164): 86 traits loaded for 65 materials in 16.2864 ms
+2024-09-27 15:22:00,020 INFO  [Worker-Main-31] s.t.l.t.d.ToolDefinitionLoader.apply(125): Loaded 34 tool definitions in 8.7392 ms
+2024-09-27 15:22:00,026 INFO  [Worker-Main-31] s.t.l.t.l.StationSlotLayoutLoader.apply(105): Loaded 18 station slot layouts in 4.5714 ms
+2024-09-27 15:22:00,776 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(150): Starting minecraft server version 1.18.2
+2024-09-27 15:22:00,780 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(155): Loading properties
+2024-09-27 15:22:00,785 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(172): Default game type: SURVIVAL
+2024-09-27 15:22:00,785 INFO  [Server thread] n.m.s.MinecraftServer.m_129793_(1283): Generating keypair
+2024-09-27 15:22:00,843 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(183): Starting Minecraft server on *:25565
+2024-09-27 15:22:00,887 INFO  [Server thread] n.m.s.n.ServerConnectionListener.m_9711_(83): Using default channel type
+2024-09-27 15:22:01,042 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(195): **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-09-27 15:22:01,042 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(196): The server will make no attempt to authenticate usernames. Beware.
+2024-09-27 15:22:01,043 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(197): While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-09-27 15:22:01,043 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(198): To change this, set "online-mode" to "true" in the server.properties file.
+2024-09-27 15:22:01,091 INFO  [Server thread] Minecraft.publish(36): This server is running Mohist version 1.18.2-183 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.21)
+2024-09-27 15:22:01,498 INFO  [Server thread] .playerSample(274): Server Ping Player Sample Count: 12
+2024-09-27 15:22:01,501 INFO  [Server thread] Minecraft.publish(36): Using 4 threads for Netty based IO
+2024-09-27 15:22:01,502 INFO  [Server thread] Minecraft.publish(36): Debug logging is enabled
+2024-09-27 15:22:01,877 INFO  [Server thread] d.l.m.LaggRemover.publish(36): [LaggRemover] Loading LaggRemover v2.0.6
+2024-09-27 15:22:01,918 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(224): Preparing level "world"
+2024-09-27 15:22:02,213 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(601): Preparing start region for dimension minecraft:overworld
+2024-09-27 15:22:02,660 INFO  [Worker-Main-21] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:02,714 INFO  [Worker-Main-21] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:03,220 INFO  [Worker-Main-22] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:03,714 INFO  [Worker-Main-21] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 1%
+2024-09-27 15:22:04,214 INFO  [Worker-Main-23] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 9%
+2024-09-27 15:22:04,715 INFO  [Worker-Main-19] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 49%
+2024-09-27 15:22:05,124 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 2911 ms
+2024-09-27 15:22:05,169 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(601): Preparing start region for dimension minecraft:the_end
+2024-09-27 15:22:05,373 INFO  [Worker-Main-28] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:05,670 INFO  [Worker-Main-24] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2024-09-27 15:22:06,099 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 929 ms
+2024-09-27 15:22:06,102 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(601): Preparing start region for dimension minecraft:the_nether
+2024-09-27 15:22:06,319 INFO  [Worker-Main-34] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:06,602 INFO  [Worker-Main-27] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2024-09-27 15:22:07,102 INFO  [Worker-Main-20] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 17%
+2024-09-27 15:22:07,480 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 1379 ms
+2024-09-27 15:22:07,484 INFO  [Server thread] d.l.m.LaggRemover.publish(36): [LaggRemover] Enabling LaggRemover v2.0.6
+2024-09-27 15:22:07,577 INFO  [Server thread] .onEnable(97): 
+2024-09-27 15:22:07,577 INFO  [Server thread] .onEnable(97):     __                      ____                                         _    _____
+2024-09-27 15:22:07,578 INFO  [Server thread] .onEnable(97):    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+2024-09-27 15:22:07,578 INFO  [Server thread] .onEnable(97):   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+2024-09-27 15:22:07,578 INFO  [Server thread] .onEnable(97):  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+2024-09-27 15:22:07,579 INFO  [Server thread] .onEnable(97): /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+2024-09-27 15:22:07,579 INFO  [Server thread] .onEnable(97):             /____//____/
+2024-09-27 15:22:07,579 INFO  [Server thread] .onEnable(97): 
+2024-09-27 15:22:07,583 INFO  [Server thread] d.l.m.LaggRemover.publish(36): [LaggRemover] Loaded 0 module(s)
+2024-09-27 15:22:07,583 INFO  [Server thread] d.l.m.LaggRemover.publish(36): [LaggRemover] The LaggRemover AI is now active!
+2024-09-27 15:22:07,584 INFO  [Server thread] d.l.m.LaggRemover.publish(36): [LaggRemover] LaggRemover has been enabled!
+2024-09-27 15:22:07,598 INFO  [Server thread] Minecraft.publish(36): Server permissions file permissions.yml is empty, ignoring it
+2024-09-27 15:22:07,612 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(228): Done (5.732s)! For help, type "help"
+2024-09-27 15:22:07,627 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(229): §b你的服务器已启动完毕，有任何问题可以加官方群《158638》进行反馈
+2024-09-27 15:22:07,652 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(130): Successfully initialized permission handler forge:default_handler
+2024-09-27 15:22:07,686 INFO  [Server thread] a.i.c.InfernalMobsCore.<init>(32): item config parser finished, item count: 14
+2024-09-27 15:22:07,687 INFO  [Server thread] a.i.c.InfernalMobsCore.<init>(32): item config parser finished, item count: 17
+2024-09-27 15:22:07,688 INFO  [Server thread] a.i.c.InfernalMobsCore.<init>(32): item config parser finished, item count: 16
+2024-09-27 15:22:07,689 INFO  [Server thread] a.i.c.InfernalMobsCore.initIfNeeded(163): InfernalMobsCore commonSetup completed! Modifiers ready: 27
+2024-09-27 15:22:07,689 INFO  [Server thread] a.i.c.InfernalMobsCore.initIfNeeded(164): InfernalMobsCore commonSetup completed! config file at: D:\hssssb\.\config\infernalmobs.cfg
